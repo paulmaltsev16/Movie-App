@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Movie</string>
+    <string name="details_title">Title</string>
+    <string name="details_releaseYear">Release year</string>
+    <string name="details_rating">Rating</string>
+    <string name="details_genre">Genre</string>
+    <string name="submit">add_new_movie</string>
+    <string name="splash_title">Movies</string>
+    <string name="qrcode_add_movie">Add movie</string>
+    <string name="qrcode_close">Close</string>
+    <string name="qrcode_focus_on_qrcode">Please focus on movie QRCode</string>
+    <string name="qrcode_movie_added">Movie added to Database</string>
+    <string name="qrcode_movie_exist">Current movie already exist in the Database</string>
+    <string name="qrcode_wrong_qrcode">Sorry but it not QRCode of movie</string>
+    <string name="frag_menu_movie">Movie</string>
+    <string name="frag_menu_reviews">Reviews</string>
+    <string name="qrcode_fab_add">add</string>
+    <string name="internet_connection">Please check your internet connection</string>
+</resources>

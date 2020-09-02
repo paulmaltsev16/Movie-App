@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/fragMovie"
+        android:icon="@drawable/ic_fragment_movie"
+        android:title="@string/frag_menu_movie"
+       />
+
+    <item
+        android:id="@+id/fragReview"
+        android:icon="@drawable/ic_fragment_reviews"
+        android:title="@string/frag_menu_reviews"
+       />
+
+</menu>

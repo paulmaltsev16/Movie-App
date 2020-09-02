@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/standard_margin"
+        tools:context=".Fragments.MovieFragment">
+
+        <ImageView
+            android:id="@+id/fragMovieIV"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_margin="@dimen/standard_margin"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"/>
+
+
+        <TextView
+            android:id="@+id/fragMovieTV_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/fragMovieIV"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="@dimen/standard_margin"
+            android:text="@string/details_title"
+            android:textSize="@dimen/details_title_size"
+            android:textStyle="bold"
+            app:fontFamily="cursive"/>
+
+        <TextView
+            android:id="@+id/fragMovieTV_releaseYear1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/fragMovieTV_title"
+            android:layout_margin="@dimen/standard_margin"
+            android:text="@string/details_releaseYear"
+            android:textSize="@dimen/text_size" />
+
+
+        <TextView
+            android:id="@+id/fragMovieTV_releaseYear2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/fragMovieTV_title"
+            android:layout_margin="@dimen/standard_margin"
+            android:layout_toRightOf="@id/fragMovieTV_releaseYear1"
+            android:text="@string/details_releaseYear"
+            android:textSize="@dimen/text_size" />
+
+        <TextView
+            android:id="@+id/fragMovieTV_rating1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/fragMovieTV_releaseYear2"
+            android:layout_alignParentLeft="true"
+            android:layout_margin="@dimen/standard_margin"
+            android:text="@string/details_rating"
+            android:textSize="@dimen/text_size"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/fragMovieTV_rating2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/fragMovieTV_releaseYear2"
+            android:layout_margin="@dimen/standard_margin"
+            android:layout_toRightOf="@id/fragMovieTV_releaseYear1"
+            android:text="@string/details_rating"
+            android:textSize="@dimen/text_size"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/fragMovieTV_genre1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/fragMovieTV_rating2"
+            android:layout_alignParentLeft="true"
+            android:layout_margin="@dimen/standard_margin"
+            android:text="@string/details_genre"
+            android:textSize="@dimen/text_size"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/fragMovieTV_genre2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/fragMovieTV_rating2"
+            android:layout_margin="@dimen/standard_margin"
+            android:layout_toRightOf="@id/fragMovieTV_releaseYear1"
+            android:text="@string/details_genre"
+            android:textSize="@dimen/text_size"
+            android:visibility="gone"/>
+
+        <LinearLayout
+            android:id="@+id/buttonsLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/fragMovieTV_genre2">
+            <Button
+                android:id="@+id/fragMovieBTN_close"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/standard_margin"
+                android:layout_weight="1"
+                android:text="@string/qrcode_close"
+                android:visibility="gone" />
+            <Button
+                android:id="@+id/fragMovieBTN_add"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/standard_margin"
+                android:layout_weight="1"
+                android:text="@string/qrcode_add_movie"
+                android:visibility="gone" />
+        </LinearLayout>
+
+    </RelativeLayout>
+</ScrollView>
