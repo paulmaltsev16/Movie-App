@@ -45,4 +45,5 @@ FORM:
 }
 
 
-<img src="https://github.com/PavelMaltsev20/Movie-App/blob/master/Gif/qr_code_generator.jpg" width="500" height="400"><img src="https://github.com/PavelMaltsev20/Movie-App/blob/master/Gif/The%20goodfather.png"><img src="https://github.com/PavelMaltsev20/Movie-App/blob/master/Gif/Helloween.png">
+<img src="https://github.com/PavelMaltsev20/Movie-App/blob/master/Gif/qr_code_generator.jpg" width="500" height="400">
+<img src="https://github.com/PavelMaltsev20/Movie-App/blob/master/Gif/The%20goodfather.png"><img src="https://github.com/PavelMaltsev20/Movie-App/blob/master/Gif/Helloween.png">
