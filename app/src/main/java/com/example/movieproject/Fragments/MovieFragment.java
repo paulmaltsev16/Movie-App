@@ -79,7 +79,6 @@ public class MovieFragment extends Fragment {
 
         Glide.with(context)
                 .load(movie.getImage())
-                .centerCrop()
                 .placeholder(R.drawable.ic_image_search)
                 .into(imageView);
 

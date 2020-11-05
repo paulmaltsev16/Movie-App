@@ -192,7 +192,6 @@ public class QRCodeReading extends AppCompatActivity {
 
             Glide.with(context)
                     .load(newMovie.getImage())
-                    .centerCrop()
                     .placeholder(R.drawable.ic_image_search)
                     .into(imageView);
 
