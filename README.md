@@ -6,21 +6,21 @@ The first gif shows the animation when the application starts. The permission is
 
 The first time the images are loaded but the second time they will be loaded from the phone cache.
 
-<img src="https://github.com/PavelMaltsev20/Movie-App/blob/master/Gif/first_gif.gif" width="300" height="500">
+<img src="https://github.com/PavelMaltsev20/Movie-App/blob/master/Gif/first_gif.gif" width="300" height="600">
 
 On the second gif, the user must allow the camera permission for to read QR code.
 
-<img src="https://github.com/PavelMaltsev20/Movie-App/blob/master/Gif/second_gif.gif" width="300" height="500">
+<img src="https://github.com/PavelMaltsev20/Movie-App/blob/master/Gif/second_gif.gif" width="300" height="600">
 
 The third and fourth gifs show how the QR code reader works and adding new films to the MySQL database.
 
-<img src="https://github.com/PavelMaltsev20/Movie-App/blob/master/Gif/third_gif.gif" width="300" height="500">
+<img src="https://github.com/PavelMaltsev20/Movie-App/blob/master/Gif/third_gif.gif" width="300" height="600">
 
-<img src="https://github.com/PavelMaltsev20/Movie-App/blob/master/Gif/fourth_gif.gif" width="300" height="500">
+<img src="https://github.com/PavelMaltsev20/Movie-App/blob/master/Gif/fourth_gif.gif" width="300" height="600">
 
 The fifth gif is an example of detailed information about the film.
 
-<img src="https://github.com/PavelMaltsev20/Movie-App/blob/master/Gif/fifth_gif.gif" width="300" height="500">
+<img src="https://github.com/PavelMaltsev20/Movie-App/blob/master/Gif/fifth_gif.gif" width="300" height="600">
 
 You can create your own qr code yourself:
 
